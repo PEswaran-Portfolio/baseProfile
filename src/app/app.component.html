@@ -1,0 +1,40 @@
+
+<mat-toolbar color="primary">
+<img src="assets/challenge.png" height="60" width="60"><span>Material Design Profile</span>
+<span class="toolbar-spacer"></span>
+<button mat-button [mat-menu-trigger-for]="appMenu"><mat-icon>menu</mat-icon> Menu</button>
+</mat-toolbar>
+<mat-menu #appMenu="matMenu">
+  <button mat-menu-item [routerLink] = "['/']">
+       <mat-icon>fingerprint</mat-icon>
+       <span>Login</span>
+     </button>
+     <button mat-menu-item [routerLink] = "['/aboutMe']">
+       <mat-icon>person</mat-icon>
+       <span>About Me</span>
+     </button>
+     <button mat-menu-item disabled>
+       <mat-icon><i class="material-icons">contact_mail</i></mat-icon>
+       <span>Contact Me</span>
+     </button>
+
+</mat-menu>
+
+<div class="pBounds">
+      <div class="content" fxLayout="row" fxLayout.xs="column" fxFlexFill >
+          <div fxFlex="15" class="pNavi" fxFlex.xs="5">
+    <div class="icon-bar">
+      <a [routerLink] = "['/contactMe/email']"><i class="fa fa-envelope fa-lg"></i></a>
+      <a><i class="fa fa-linkedin fa-lg"></i></a>
+      <a  [routerLink] = "['/contactMe']"><i class="fa fa-github fa-lg"></i></a>
+      <a href="#"> <i class="fa fa-twitter fa-lg"></i></a>
+      <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+      <a href="#"> <i class="fa fa-instagram fa-lg"></i></a>
+      <a href="#"> <i class="fa fa-google fa-lg"></i></a>
+      <a href="#"> <i class="fa fa-stack-overflow fa-lg"></i></a>
+    </div>
+          </div>
+          <div class="pShowcase">
+            <router-outlet></router-outlet>
+          </div>
+</div>

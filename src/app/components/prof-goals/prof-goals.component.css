@@ -1,0 +1,14 @@
+.listWindow {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.viewWindows {
+  border:2px solid grey;
+}
+
+.goalContent {
+   flex-grow:2;
+   text-align:justify;
+}

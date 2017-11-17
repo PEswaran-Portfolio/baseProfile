@@ -1,0 +1,36 @@
+.pBounds {
+  background-color:#ddd;
+  height :99vh;
+}
+
+.pNavi {
+  border:1px solid green;
+  color:orange;
+
+}
+
+.pContent {
+ border:1px solid blue;
+  color:blue;
+
+}
+
+.pNavi, .pContent {
+      padding:20px;
+    }
+
+  .icon-bar {
+  margin: 0 auto;
+  width: auto; /* Set a specific width */
+  }
+
+  .icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 30px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  font-size: 40px; /* Increased font-size */
+  margin-bottom:5px;
+  color: navy;
+
+  }
