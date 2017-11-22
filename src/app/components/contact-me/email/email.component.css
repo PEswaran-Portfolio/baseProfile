@@ -1,18 +1,8 @@
 .email-example-card{
-  max-width:100%;
-  position:absolute;
-  left:50%;
+  max-width:80vw;
+
 }
 .example-header-image {
   background-image: url("/assets/challenge.png");
   background-size: cover;
-}
-example-form {
-  min-width: 150px;
-  max-width: 600px;
-  width: 100%;
-}
-
-.example-full-width {
-  width: 100%;
 }
