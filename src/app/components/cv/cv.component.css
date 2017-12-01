@@ -1,4 +1,65 @@
-.example-header-image {
+.ll-header-image {
   background-image: url("/assets/mitll.png");
   background-size: cover;
+}
+
+.wsu-header-image {
+  background-image: url("/assets/wsu.png");
+  background-size: cover;
+}
+
+.sbcs-header-image {
+  background-image: url("/assets/sbcs.png");
+  background-size: cover;
+}
+
+.z-depth-5 {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.bubble-container {
+	padding:1px;
+}
+
+.bubble-card {
+ list-style:none;
+ margin:0;
+ padding:0;
+ text-align:center;
+
+}
+.bubble-card li{
+  display:inline-block;
+		padding:20px;
+		border:1px solid rgba(0,0,0,0.2);
+		border-radius:25px;
+		box-shadow:0 0 15px rgba(0,0,0,0.5);
+		font-size:1.5em;
+		transition:all 0.2s ease-in-out;
+		text-align:center;
+
+}
+.details {
+			float:left;
+			text-align:left;
+			transition:all 0.5s ease-in-out;
+			text-shadow:1px 1px rgba(0,0,0,0);
+			min-width:250px;
+      margin:20px;
+      width:35vw;
+      height:300px;
+}
+
+img {
+			display:inline-block;
+			width:100%;
+			height:auto;
+			max-width:100px;
+			float:left;
+			border-radius:50%;
+			box-shadow:0 0 2px rgba(0,0,0,0.5);
+			transition:all 0.5s ease-in-out;
+		}
+.card-bubble{
+  position:static;
 }
