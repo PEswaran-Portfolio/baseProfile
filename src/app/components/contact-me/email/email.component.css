@@ -1,8 +1,9 @@
-.email-example-card{
-  max-width:80vw;
-
-}
 .example-header-image {
   background-image: url("/assets/challenge.png");
   background-size: cover;
+}
+
+.mat-form-field {
+
+
 }
