@@ -1,15 +1,15 @@
 .ll-header-image {
-  background-image: url("/Images/mitll.png");
+  background-image: url("/assets/Images/mitll.png");
   background-size: cover;
 }
 
 .wsu-header-image {
-  background-image: url("/Images/wsu.png");
+  background-image: url("/assets/Images/wsu.png");
   background-size: cover;
 }
 
 .sbcs-header-image {
-  background-image: url("/Images/sbcs.png");
+  background-image: url("/assets/Images/sbcs.png");
   background-size: cover;
 }
 
